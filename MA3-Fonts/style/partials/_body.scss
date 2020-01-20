@@ -1,0 +1,48 @@
+body {
+    color: black;
+  }
+  
+main {
+  background-image: url("../../images/texture.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: $header-size;
+  font-family: $header-font;
+  text-align: center;
+  color: #000;
+  padding: 5px;
+}
+
+h4 {
+  font-weight: 400;
+  text-align: center;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: $subheader-size;
+}
+
+p {
+    font-size: $content-size;
+}
+
+.col-md-6 {
+  padding: 20px;
+  max-width: 50%;
+}
+
+.backg-cont {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.intro {
+  text-shadow: 0 1px 1px #000;
+}
+  
